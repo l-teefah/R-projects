@@ -7,7 +7,7 @@ The file containing the NUTS geographical information was retrieved from <https:
 - NUTS 2: basic regions for the application of regional policies
 - NUTS 3: small regions for specific diagnoses.
 
-Load necessary libraries and the [map shape file](NUTS_RG_20M_2024_3035.shp).
+Load necessary libraries and the [NUTS_RG_20M_2024_3035.shp.zip](https://github.com/user-attachments/files/18375882/NUTS_RG_20M_2024_3035.shp.zip). Unzip the ´shp´ file before executing codes, alternatively you can download the map file from the repository.
 
 ```{r, warning = FALSE, message = FALSE}
 library(sf)
