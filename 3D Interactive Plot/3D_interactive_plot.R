@@ -1,4 +1,4 @@
-
+Data available [at](./Album_Sales_2.dat)
 # Read data from working directory 
 album_sales <- read.delim("Album_Sales_2.dat")
 
