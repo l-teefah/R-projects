@@ -1,0 +1,1 @@
+ There's a dense cluster of points in the middle of the plot, suggesting that most albums in this dataset have moderate values across all three variables, with some outliers having particularly high promotion budgets or sales figures.
