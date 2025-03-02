@@ -1,4 +1,4 @@
-Data available [at]("./Album_Sales_2.dat")
+Data available [at](https://github.com/l-teefah/R-projects/blob/main/3D%20Interactive%20Plot/Album_Sales_2.dat)
 
 # Read data from working directory 
 album_sales <- read.delim("Album_Sales_2.dat")
