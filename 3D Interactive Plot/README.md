@@ -4,7 +4,7 @@
 This R script creates an interactive 3D scatter plot to visualize the relationship between album sales, promotion budget, and radio airplay. The visualization helps analyze how radio exposure and promotional spending influence album sales.
 
 ## Data Source
-The script uses [data]("Album_Sales_2.dat) from "Album_Sales_2.dat", which is referenced in Field, A.P. (2017), "Discovering Statistics using R: and sex and drugs and rock 'n' roll (5th ed.)", SAGE Publications.
+The script uses [data](Album_Sales_2.dat) from "Album_Sales_2.dat", which is referenced in Field, A.P. (2017), "Discovering Statistics using R: and sex and drugs and rock 'n' roll (5th ed.)", SAGE Publications.
 
 ## Variables
 The dataset contains the following variables:
