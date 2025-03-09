@@ -3,8 +3,8 @@
 
 This folder contains two R scripts for automating regression analysis workflows, both R scripts automates the process of running regression analyses on a scheduled basis. They load data from a specified location, performs regression modeling, and generates comprehensive HTML reports with visualizations and statistical summaries.
 
-1. **Automated_Regression_Analysis.R** - Basic version that generates HTML reports.
-2. **Automated_Regression_Analysis_Script_with_Email_Notifications.R** - Enhanced version that also sends email notifications.
+1. [**Automated_Regression_Analysis.R**](Automated_Regression_Analysis.R) - Basic version that generates HTML reports.
+2. [**Automated_Regression_Analysis_Script_with_Email_Notifications.R**](Automated_Regression_Analysis_Script_with_Email_Notifications.R) - Enhanced version that also sends email notifications.
 
 ## Overview
 These scripts automate the process of:
@@ -53,7 +53,7 @@ install.packages("emayili")
 
 ## Usage
 
-### [Basic Script] (Automated_Regression_Analysis.R)
+### Basic Script - Automated_Regression_Analysis.R
 
 1. Open the script in R or RStudio
 2. Modify the configuration settings:
@@ -67,7 +67,7 @@ install.packages("emayili")
    
 3. Run the script
 
-### [Email Notification Script] (Automated_Regression_Analysis_Script_with_Email_Notifications.R)
+### Email Notification Script - Automated_Regression_Analysis_Script_with_Email_Notifications.R
 
 1. Open the script in R or RStudio
 2. Modify all configuration settings including:
