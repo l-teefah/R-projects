@@ -34,8 +34,7 @@ Both scripts require:
 - lubridate (date handling)
 - readxl (for Excel files, used implicitly)
 
-The email notification script additionally requires one of:
-- blastula (recommended email package)
+The email notification script additionally requires:
 - emayili (alternative email package)
 
 ### Installation
@@ -45,9 +44,6 @@ The email notification script additionally requires one of:
 install.packages(c("tidyverse", "rmarkdown", "knitr", "broom", "ggplot2", "lubridate", "readxl"))
 
 # Install email packages (for email notification script only)
-# Option 1: Blastula
-install.packages("blastula")
-# OR Option 2: Emayili
 install.packages("emayili")
 ```
 
@@ -59,7 +55,7 @@ install.packages("emayili")
 2. Modify the configuration settings:
    
    ```R
-   data_path <- "/path/to/your/data/file.csv"  # Your data file path
+   data_path <- "/path/to/your/data/file"  # Your data file path
    output_dir <- "/path/to/reports"            # Where reports should be saved
    dependent_var <- "y"                        # Your dependent variable
    independent_vars <- c("x1", "x2", "x3")     # Your independent variables
@@ -92,10 +88,7 @@ install.packages("emayili")
    smtp_password <- "your_password"           # SMTP password
    ```
    
-3. Choose either Blastula or Emayili as your email provider:
-   - Uncomment your preferred library
-   - In the run_analysis() function, uncomment the corresponding send_email function
-4. Run the script
+3. Run the script
 
 ## Input Data Format
 
@@ -153,11 +146,11 @@ The generated HTML report includes:
 4. Save and exit
 ### Using R packages
 For more complex scheduling needs, consider using packages like:
-  - `taskscheduleR` (Windows-focused)
+- `taskscheduleR` (Windows-focused)
 - `cronR` (for Linux/Mac systems)
   
 ## Troubleshooting
-- Check the log file (`regression_log.txt` in your output directory) for error messages
+- Check the log file (`regression_log.txt` in your output directory or email) for error messages
 - Ensure all required packages are installed
 - Verify that file paths are correct and accessible
 - Make sure column names in your configuration match those in your data file
