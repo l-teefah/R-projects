@@ -70,7 +70,7 @@ install.packages("emayili")
 
    ```R
    # Basic Settings
-   data_path <- "/path/to/your/data/file.csv"  # Your data file path
+   data_path <- "/path/to/your/data/file"  # Your data file path
    output_dir <- "/path/to/reports"            # Where reports should be saved
    dependent_var <- "y"                        # Your dependent variable
    independent_vars <- c("x1", "x2", "x3")     # Your independent variables
