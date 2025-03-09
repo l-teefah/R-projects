@@ -66,7 +66,7 @@ install.packages("emayili")
 ### Email Notification Script - Automated_Regression_Analysis_Script_with_Email_Notifications.R
 
 1. Open the script in R or RStudio
-2. Modify all configuration settings. Replace "your_password" with your actual email password or app password. For services like Gmail or Microsoft, it is advisable to use an "app password" rather than your regular account password due to security requirements. To create an app password for Gmail: Go to your Google Account → Security → 2-Step Verification → App passwords. If you'll be generating an app password for the first time, you may not be able to access 'App passwords' under '2-Step Verificvation' but you can generate an app password from [this link](https://myaccount.google.com/apppasswords)
+2. Modify all configuration settings. Replace "your_password" with your actual email password or app password. For services like Gmail or Microsoft, it is advisable to use an "app password" rather than your regular account password due to security requirements. To create an app password for Gmail: Go to your Google Account → Security → 2-Step Verification → App passwords. If you'll be generating an app password for the first time, you may not be able to access 'App passwords' under '2-Step Verification' but you can generate an app password from [this link](https://myaccount.google.com/apppasswords)
 
    ```R
    # Basic Settings
