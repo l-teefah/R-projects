@@ -30,7 +30,7 @@ library(broom)      # For converting model outputs to tidy data frames
 library(ggplot2)    # For plotting
 library(lubridate)  # For date handling
 
-# Load email package (uncomment ONE of these lines based on your preference)
+# Load email package (uncomment emayili if you'll be using it)
 library(blastula)    # Email package (Approach 1) 
 # library(emayili)   # Email package (Approach 2)
 
@@ -48,10 +48,10 @@ email_subject <- "Automated Regression Analysis Report" # Email subject
 
 # Email server configuration
 # For Blastula:
-#smtp_server <- "smtp.example.com"            # SMTP server address
-#smtp_port <- 587                            # SMTP port (usually 587 for TLS, 465 for SSL)
-#smtp_user <- "your.email@example.com"        # SMTP username
-#smtp_password <- "your_password"             # SMTP password
+smtp_server <- "smtp.example.com"            # SMTP server address
+smtp_port <- 587                            # SMTP port (usually 587 for TLS, 465 for SSL)
+smtp_user <- "your.email@example.com"        # SMTP username
+smtp_password <- "your_password"             # SMTP password
 
 # For Emayili (if using):
 #email_server <- "smtp.example.com"           # SMTP server
