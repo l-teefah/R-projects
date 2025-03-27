@@ -82,7 +82,7 @@ class(df$Clean_Survey_Date)
 
 # date was stored in epoch format "19570"
 # convert the numeric values to actual dates and save in new column while assuming those numbers are days since 1970-01-01 (the default for R)
-df$survey_date <- as.Date(df$Clean_Survey_Date, origin = "1970-01-01")
+df$survey_date <- as.Date(as.numeric(df$Clean_Survey_Date), origin = "1970-01-01")
 
 # Check the result
 head(df$survey_date)
@@ -370,7 +370,7 @@ unique(df$clean_sub_category)
 
 ######
 # Convert date columns to datetime format
-datetime_columns <- c("order_date_time", "Issue_reported.at", "issue_responded", "survey_date")
+datetime_columns <- c("order_date_time", "Issue_reported.at", "issue_responded")
 for (col in datetime_columns) {
   if (col %in% colnames(df)) {
     df[[col]] <- dmy_hm(df[[col]], quiet = TRUE)
