@@ -394,6 +394,8 @@ if ("Issue_reported.at" %in% colnames(df)) {
   df$Week_of_month <- week(df$Issue_reported.at) - week(floor_date(df$Issue_reported.at, unit = "month")) + 1
 } 
 
+# Using na.omit() function - removes any row with at least one NA
+clean_data <- na.omit(df)
 
 ##########
 # Extract specific columns
