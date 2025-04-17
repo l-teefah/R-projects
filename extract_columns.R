@@ -399,7 +399,7 @@ clean_data <- na.omit(df)
 
 ##########
 # Extract specific columns
-selected_columns <- df[, c("Unique.id", "survey_date", "clean_channel_name", "clean_category", "clean_sub_category", "CSAT.Score", "Supervisor",
+selected_columns <- clean_data[, c("Unique.id", "survey_date", "clean_channel_name", "clean_category", "clean_sub_category", "CSAT.Score", "Supervisor",
                            "clean_product_category", "Customer_City", "clean_tenure", "clean_agent_shifts", "Agent_name",
                            "Item_price", "Response_time_min", "response_time_hr", "Day_of_week", "Hour_of_day", "Week_of_month", "Manager")]
 
