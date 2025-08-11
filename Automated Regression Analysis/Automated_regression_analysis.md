@@ -169,4 +169,4 @@ The scripts can be customized by:
 - Changing report styling by modifying the YAML header
 
 ## License
-This script is provided as-is under an open-source license. Feel free to modify and distribute as needed.
+This script is provided as it is under an open-source license. Feel free to modify and distribute as needed.
