@@ -93,7 +93,7 @@ To create an app password for Yahoomail: Sign in to [**Yahoo account security Pa
    smtp_password <- "your_password"           # SMTP password
    ```
    
-5. Run the script
+3. Run the script
 
 ## Input Data Format
 
